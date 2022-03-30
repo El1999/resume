@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="keyword" content="Резюме, Frontend-developer, Frontend-разработчик, Лучший">
-    <meta name="description" content="Kamalov Eldar - лучший разработчик всея Татарии  и его резюме">
+    <meta name="description" content="Kamalov Eldar - лучший разработчик всея Татарии и его резюме">
     <title>EldarKR</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -29,6 +29,8 @@
         <div class="card">
             <p>
                 <h2>Список социальных сетей:</h2>
+                <hr>
+                <br>
                 <a href="https://t.me/EldarKR" target="_blank" class="btn">Telegram</a> |
                 <a href="https://vk.com/eldar_kaa" target="_blank" class="btn">Вконтакте</a> |
                 <a href="https://www.instagram.com/eldark9/" target="_blank" class="btn"> Instagram</a>
@@ -37,6 +39,7 @@
         <div class="card">
             <p> 
                 <h2>Мои увлечения</h2>
+                <hr>
                 <ul>
                     <li>Программирование</li>
                     <li>Бокс</li>
@@ -49,6 +52,7 @@
         <div class="card">
             <p>
                 <h2>Опыт работы</h2>
+                <hr>
                 <table>
                     <thead>
                         <tr>
@@ -83,28 +87,30 @@
             </p>
         </div>
         <div class="forms">
-            <p>
+            <form action="/" class="nf">
                 <h2>Связаться со мной</h2>
-                <div>
-                    <label for="name">Ваше имя:</label>
-                    <input type="text" id="name" placeholder="Введите имя...">
+                <div class="form-row">
+
+                    <div class="form-group">
+                        <label for="name">Ваше имя:</label>
+                        <input type="text" id="name" placeholder="Введите имя...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mail">Ваш email:</label>
+                        <input type="email" id="mail" placeholder="Введите email...">
+                    </div>
                 </div>
-                <div>
-                    <label for="mail">Ваш email:</label>
-                    <input type="email" id="mail" placeholder="Введите email...">
-                </div>
-                <div>
-                    <label for="age">Ваш возраст:</label>
-                    <input type="number" id="age" placeholder="Введите возраст..." min="0" max="100">
-                </div>
-                <div>
+
+                <div class="form-group">
                     <label for="message">Ваш текст:</label>
-                    <textarea id="message" cols="40" rows="15" placeholder="Жду ваши мысли..."></textarea>
+                    <textarea id="message" cols="20" rows="5" placeholder="Жду ваши буквы..."></textarea>
                 </div>
-                <button type="submit">Отправить!!!</button>
-            </p>
+                <div class="KK">
+                    <button type="submit" class="knopka">Отправить!!!</button>
+                </div>
+            </form>
         </div>
-    </div>
 </body>
 </html>
 
